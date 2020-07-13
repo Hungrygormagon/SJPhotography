@@ -1,0 +1,352 @@
+/*global changes*/
+body{
+    background-color: #75777D;
+}
+img{
+    width: 800px;
+    height:1000px;
+}
+
+/*sets up central container as a grid*/
+.container{
+    background-color: #75777d;
+    display:grid;
+    gap:.3em;
+    grid-template-columns: 10;
+    grid-template-rows: 6;
+    position: relative;
+    max-width: 100%;
+}
+/*Navigation bar starts here */
+.wrap{
+    grid-row: 1;
+    grid-column: 2/10;
+}
+.wrap{
+    display:grid, inline;
+    grid-template-rows: 5;
+    grid-template-columns: 4;
+    max-width: 100%;
+}
+    
+.menu, .siteTitle, .menu li, .siteTitle li{
+    margin-left: .2em;
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px #000;
+
+}
+
+.menu {
+    font-size:1.5em;
+    text-align: center;
+    display:inline, grid;
+    grid-row: 3/3;
+    grid-column: 4/5;
+    margin:auto;
+
+}
+
+.menu li{
+    padding: .2;
+    padding-right: 1em;
+    cursor: pointer;
+    display:inline;
+    grid-row: 3/3;
+    grid-column: 4/5;
+    
+}
+.siteTitle{
+    display: grid;
+    grid-row: 3/3;
+    grid-column: 1/3;  
+
+}
+.siteTitle li{
+    font-size:3em;
+    text-align: left;
+    padding-top: 1em;
+    display: inline;
+    grid-row: 3/3;
+    grid-column: 1/3; 
+
+}
+
+
+.Link{
+    color:#FFF
+}
+.Link:hover{
+    color:#FFF
+}
+.Link:visited{
+    color:#FFF
+}
+
+.footer{
+    font: 12px/18px sans-serif;
+    text-align: center;
+    padding: 25px;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+    width:100%;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+/*Navigation Bar settings end*/  
+
+
+/*welcome message settings*/
+.welcomeContainer{
+    display: grid;
+    grid-row: 2;
+    grid-column: 1/10;
+    margin:auto;
+    width: 50%;
+}
+
+.welcomeMsg, .signature{
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 1.6em;
+    font-family: 'San Francisco';
+    padding-left: .2em;
+    padding-right: .2em;
+    padding-bottom: .2em;
+    text-align: center;
+}
+
+.welcomeTitle{
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    font-size: 2.5em;
+    font-family: 'San Francisco';
+    font-weight: 400;
+    text-align: center;
+    padding: .2em;
+    padding-top:1em;
+}
+/*centers signature*/
+.signature{
+    margin:auto;
+    width:50%;
+}
+/*Settings for home page*/
+.sectionTitle{
+    padding-top:.2em;
+    padding-left: .5em;
+    text-shadow: 2px 2px #75777D;
+    font-family: 'San Francisco';
+    font-size: 2.5em;
+}
+.Desc{
+    position: relative;
+    background-color: #fff;
+    grid-column: 3/7;
+    grid-row: 6/8;
+    box-shadow: 2px 2px 10px 0 #000;
+    z-index:10;
+    font-family: 'San Francisco';
+
+}
+.photo{
+    position: relative;
+    grid-column:2/4;
+    grid-row:1/10;
+    z-index:2;
+
+}
+.homePhoto{
+    box-shadow: 2px 2px 10px 0 #000;
+}
+.reverseDesc{
+    position: relative;
+    background-color: #fff;
+    grid-column: 1/9;
+    grid-row: 6/8;
+    box-shadow: 2px 2px 10px 0 #000;
+    z-index:10;
+    font-family: 'San Francisco';
+
+
+}
+.reversephoto{
+    position: relative;
+    grid-column:7/10;
+    grid-row:1/10;
+    z-index:2;
+
+}
+.glamourcontainer{
+    display:grid;
+    grid-row:3;
+    grid-column: 1/10;
+    margin:auto;
+    width: 75%;
+}
+.glamourcontainer{
+    display:grid;
+    grid-template-columns: 10;
+    grid-template-rows:10; 
+    padding:5em;
+}
+.lovecontainer{
+    grid-row: 4;
+    grid-column: 1/10;
+    margin:auto;
+    width: 75%;
+}
+.lovecontainer{
+    display:grid;
+    grid-template-columns: 10;
+    grid-template-rows:10; 
+    padding:5em;
+}
+.printcontainer{
+    grid-row:5;
+    grid-column: 1/10;
+    margin:auto;
+    width: 75%;
+}
+.printcontainer{
+    display:grid;
+    grid-template-columns: 10;
+    grid-template-rows:10; 
+    padding:5em;
+}
+.schedulecontainer{
+    grid-row:6;
+    grid-column: 1/10;
+    margin:auto;
+    width: 75%;
+}
+.schedulecontainer{
+    display:grid;
+    grid-template-columns: 10;
+    grid-template-rows:10; 
+    padding:5em;
+}
+.descText{
+    font-size: 1.25em;
+    padding-left: .2em;
+    color:#000;
+    text-align:center;
+
+}
+.btn{
+    width:7em;
+    position: relative;
+    margin-left: 75%;
+    margin-bottom: 2em;
+}
+/*Home Page settings end*/ 
+
+
+/*About Stephen section begins here*/
+
+.aboutcontainer{
+    display:grid;
+    grid-template-columns: 2;
+    grid-template-rows:10; 
+    padding: 5em;
+}
+.aboutPhoto{
+    position: relative;
+    grid-column:2;
+    grid-row:1/10;
+    z-index:2;
+    box-shadow: 2px 2px 10px 0 #000;
+
+}
+.about_summary{
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    font-size: 3em;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    font-family: 'San Francisco';
+
+}
+
+.aboutDesc{
+    color: #fff;
+    font-size: 1em;
+    position: relative;
+    grid-column: 1;
+    grid-row: 5;
+    padding: 1em;
+    font-family: 'San Francisco';
+
+
+}
+.aboutText{
+    font-size: 1.25em;
+    padding-left: .2em;
+    color:#fff;
+    text-align:left;
+}
+
+/*About Stephen section ends*/
+
+/*Rates and Packages section Begins*/
+.ratescontainer{
+    display:grid;
+    grid-template-columns: 3;
+    grid-template-rows:10; 
+    padding: 5em;
+}
+
+.photo{
+    position: relative;
+    grid-column:1;
+    grid-row:1/10;
+    box-shadow: 2px 2px 10px 0 #000;
+}
+.ratesDesc{
+    color: #fff;
+    font-size: 2em;
+    position: relative;
+    grid-column: 2;
+    grid-row: 4;
+    padding: 1em;
+    font-family: 'San Francisco';
+}
+.ratesTitle{
+    padding-top:.2em;
+    padding-left: .5em;
+    color:#fff;
+    text-shadow: 2px 2px #000;
+    font-family: 'San Francisco';
+    font-size: 3em;
+    position: relative;
+    grid-column: 2;
+    grid-row: 3;
+}
+.tfpDesc{
+    color: #fff;
+    font-size: 2em;
+    position: relative;
+    grid-column: 2;
+    grid-row: 6;
+    padding-top: .5em;
+    padding: 1em;
+    font-family: 'San Francisco';
+}
+.tfpTitle{
+    padding-top:.2em;
+    padding-left: .5em;
+    color:#fff;
+    text-shadow: 2px 2px #000;
+    font-family: 'San Francisco';
+    font-size: 3em;
+    position: relative;
+    grid-column: 2;
+    grid-row: 5;
+}
+/*Rates and Packages ends*/

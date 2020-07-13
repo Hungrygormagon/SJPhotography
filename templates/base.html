@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html class="html" lang="en">
+	<head>
+        <meta charset="UTF-8">
+                <!--Meta information for SEO-->
+                <link rel="canonical" href="https://www.stephenjakobphotography.com/about">
+                <link rel="icon" type="image/jpg" href="../static/img/favicon.jpg"/>
+                <meta property="og:site_name" content="Stephen Jakob Photography">
+                <meta property="og:title" content="About Stephen — Stephen Jakob Photography">
+                <meta property="og:url" content="https://www.stephenjakobphotography.com/about">
+                <meta property="og:type" content="website">
+                <meta property="og:description" content="Affordable Fine Art photography in the Salem Oregon. Specializing in Glamour, Family, Engagement, and Boudoir portraits. Photographing the Willamette Valley and everywhere in between. Fine Art Prints of the Pacific Northwest are available. Senior photos, Graduation, Wedding, Couple, maternity, Photo">
+                <meta itemprop="name" content="About Stephen — Stephen Jakob Photography">
+                <meta itemprop="url" content="https://www.stephenjakobphotography.com/about">
+                <meta itemprop="description" content="Affordable Fine Art photography in the Salem Oregon. Specializing in Glamour, Family, Engagement, and Boudoir portraits. Photographing the Willamette Valley and everywhere in between. Fine Art Prints of the Pacific Northwest are available. Senior photos, Graduation, Wedding, Couple, maternity, Photo">
+                <meta name="twitter:title" content="About Stephen — Stephen Jakob Photography">
+                <meta name="twitter:url" content="https://www.stephenjakobphotography.com/about">
+                <meta name="twitter:card" content="summary">
+                <meta name="twitter:description" content="Affordable Fine Art photography in the Salem Oregon. Specializing in Glamour, Family, Engagement, and Boudoir portraits. Photographing the Willamette Valley and everywhere in between. Fine Art Prints of the Pacific Northwest are available. Senior photos, Graduation, Wedding, Couple, maternity, Photo">
+                <meta name="description" content="Affordable Fine Art photography in the Salem Oregon. Specializing in 
+                Glamour, Family, Engagement, and Boudoir portraits. Photographing the 
+                Willamette Valley and everywhere in between. Fine Art Prints of the Pacific 
+                Northwest are available. Senior photos, Graduation, Wedding, Couple, 
+                maternity, Photo Studio">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+                <title>{% block title%}{% endblock %}</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+                <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+                <link rel="stylesheet" type='text/css' href="{% static 'css/baseTemplate.css' %}">
+                <link rel="stylesheet" type='text/css' href="{% static 'css/navbar.css' %}">
+	</head>
+    <body>
+        
+        {% include "navbar.html" %}
+        <br>
+        <br>
+
+        {%block content%}
+        {%endblock%}
+        </div>
+    {% include "footer.html" %}
+
+    </body>
+</html>

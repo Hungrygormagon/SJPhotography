@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{%load static%}
+
+
+{% block content %}
+<div class = container>
+    <br>
+    <br>
+    <div class="welcomeContainer">
+        <h1 class="welcomeTitle">Welcome!</h1><br>
+        <p class=welcomeMsg>My name is Stephen, and I am a fine art photographer 
+            in Salem, Oregon. I specialize in Glamour, Family, Engagement, 
+            and Boudoir Portrait photography. I also have a selection of 
+            landscapes showcasing the beauty of the Mid Willamette Valley.
+            Take a moment to look around, and feel free to send me a message
+            if you have an questions or comments!
+            <br></p>
+        <p class=signature>—Stephen Jakob</p>
+    </div>
+    <section class=glamourcontainer>
+        <div class="Desc">
+            <h1 class="sectionTitle">Glamour.</h1><br>
+            <p class="descText">Feeling beautiful shouldn’t be out of reach for anyone. 
+                I specialize in glamour photography using a number of techniques to make
+                you feel as beautiful as possible. </p>
+                <button type="button" class="btn btn-dark">View More</button>
+        </div>
+        <div class="photo homePhoto">
+            <img src="../static/img/glamour.jpg" alt="glamourthumb">
+        </div>
+    </section>
+    <section class=lovecontainer>
+        <div class="reverseDesc">
+            <h1 class="sectionTitle">Glamour.</h1><br>
+            <p class="descText">Feeling beautiful shouldn’t be out of reach for anyone. 
+                I specialize in glamour photography using a number of techniques to make
+                you feel as beautiful as possible. </p>
+                <button type="button" class="btn btn-dark">View More</button>
+        </div>
+        <div class="reversephoto homePhoto">
+            <img src="../static/img/love.jpg" alt="glamourthumb">
+        </div>
+    </section>
+    <section class=printcontainer>
+        <div class="photo homePhoto">
+            <img src="../static/img/print.jpg" alt="glamourthumb">
+        </div>
+        <div class="Desc">
+            <h1 class="sectionTitle">Glamour.</h1><br>
+            <p class="descText">Feeling beautiful shouldn’t be out of reach for anyone. 
+                I specialize in glamour photography using a number of techniques to make
+                you feel as beautiful as possible. </p>
+                <button type="button" class="btn btn-dark">View More</button>
+        </div>
+    </section>
+    <section class=schedulecontainer>
+        <div class="reverseDesc">
+            <h1 class="sectionTitle">Glamour.</h1><br>
+            <p class="descText">Feeling beautiful shouldn’t be out of reach for anyone. 
+                I specialize in glamour photography using a number of techniques to make
+                you feel as beautiful as possible. </p>
+                <button type="button" class="btn btn-dark">View More</button>
+        </div>
+        <div class="reversephoto homePhoto">
+            <img src="../static/img/ready_to_schedule.jpg" alt="glamourthumb">
+        </div>
+    </section>
+</div>
+{% endblock %}
